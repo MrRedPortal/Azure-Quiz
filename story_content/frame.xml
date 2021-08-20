@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbsnfns00001100001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x3FBD93">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00001100001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x3FBD93">
   <layouts>
-    <layout name="npnxnanbsnfns00001100001" font="Open Sans" controllayout="npnxnanbsnfns00001100001" colorscheme="npnxnanbsnfns00001100001" string_table="npnxnanbsnfns00001100001" />
-    <layout name="pxabnsnfns00001100001" font="Open Sans" controllayout="pxabnsnfns00001100001" colorscheme="npnxnanbsnfns00001100001" string_table="npnxnanbsnfns00001100001" />
-    <layout name="npxnabnsnfns00001100001" font="Open Sans" controllayout="npxnabnsnfns00001100001" colorscheme="npnxnanbsnfns00001100001" string_table="npnxnanbsnfns00001100001" />
-    <layout name="npnxnanbnsnfns00001100001" font="Open Sans" controllayout="npnxnanbnsnfns00001100001" colorscheme="npnxnanbsnfns00001100001" string_table="npnxnanbsnfns00001100001" />
-    <layout name="pxabnsnfns00001100000" font="Open Sans" controllayout="pxabnsnfns00001100000" colorscheme="npnxnanbsnfns00001100001" string_table="npnxnanbsnfns00001100001" />
+    <layout name="npnxnanbsnfns00001100001" font="Open Sans" controllayout="npnxnanbsnfns00001100001" colorscheme="pxabnsnfns00001100001" string_table="pxabnsnfns00001100001" />
+    <layout name="pxabnsnfns00001100001" font="Open Sans" controllayout="pxabnsnfns00001100001" colorscheme="pxabnsnfns00001100001" string_table="pxabnsnfns00001100001" />
+    <layout name="npxnabnsnfns00001100001" font="Open Sans" controllayout="npxnabnsnfns00001100001" colorscheme="pxabnsnfns00001100001" string_table="pxabnsnfns00001100001" />
+    <layout name="npnxnanbnsnfns00001100001" font="Open Sans" controllayout="npnxnanbnsnfns00001100001" colorscheme="pxabnsnfns00001100001" string_table="pxabnsnfns00001100001" />
+    <layout name="pxabnsnfns00001100000" font="Open Sans" controllayout="pxabnsnfns00001100000" colorscheme="pxabnsnfns00001100001" string_table="pxabnsnfns00001100001" />
+    <layout name="pnxnanbsnfns00001100001" font="Open Sans" controllayout="pnxnanbsnfns00001100001" colorscheme="pxabnsnfns00001100001" string_table="pxabnsnfns00001100001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -13,7 +14,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="Azure Quiz v1.0.0" />
+              <option name="title_text" value="Azure Quiz v2" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -206,9 +207,32 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
+    <control_layout name="pnxnanbsnfns00001100001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npnxnanbsnfns00001100001">
+    <colorscheme name="pxabnsnfns00001100001">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1385,7 +1409,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npnxnanbsnfns00001100001">
+    <string_table name="pxabnsnfns00001100001">
       <string id="three_image_items">items</string>
       <string id="three_image_viewed">viewed</string>
       <string id="three_image_of">of</string>
@@ -1491,26 +1515,8 @@
       <links>
         <slidelink slideid="_player.5a5XEV003aM" displaytext="Azure Fundamentals Basic Quiz" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.5a5XEV003aM.5Vfa5pxXBBU" displaytext="Financially speaking, one of the benefits of using cloud computing over hosting applications yourself on servers you own is..." expand="false" type="slide" />
-            <slidelink slideid="_player.5a5XEV003aM.6McbpoaN1O5" displaytext="What is the principle of Economies of Scale?" expand="false" type="slide" />
-            <slidelink slideid="_player.5a5XEV003aM.6YfAfkh9CHN" displaytext="How many minutes per month of downtime is 99.99% availability?" expand="false" type="slide" />
-            <slidelink slideid="_player.5a5XEV003aM.5v3HiJaYNzN" displaytext="When using the term &amp;quot;public cloud&amp;quot;, what is it that makes it public versus private?" expand="false" type="slide" />
-            <slidelink slideid="_player.5a5XEV003aM.6iOJ60aECZZ" displaytext="Which cloud computing model does a virtual machine fall into?" expand="false" type="slide" />
-            <slidelink slideid="_player.5a5XEV003aM.687sGMHt0u9" displaytext="Azure claims there are 54 regions. But when I create my account, I can only see 30 or so. What happened to the other regions?" expand="false" type="slide" />
-            <slidelink slideid="_player.5a5XEV003aM.5sHB4w6xXFd" displaytext="Which of Azure&amp;apos;s architectural components allows you to specify exactly which data center in a region a virtual machine resides?" expand="false" type="slide" />
-            <slidelink slideid="_player.5a5XEV003aM.600VfiHIApY" displaytext="Which of the following Azure services is NOT part of the compute services?" expand="false" type="slide" />
-            <slidelink slideid="_player.5a5XEV003aM.5xJJ6ODMv31" displaytext="The Azure Storage platform includes data services to aid in satisfying specific work flows. One of these data services is Azure Files. What does Azure Files offer? And what example use case is this service a good selection?" expand="false" type="slide" />
-            <slidelink slideid="_player.5a5XEV003aM.6P0s6deYGx1" displaytext="Where do you find virtual machine images provided by third party companies within the Azure Portal?" expand="false" type="slide" />
-            <slidelink slideid="_player.5a5XEV003aM.6dYtJCiozNF" displaytext="What types of attacks can a Web Application Firewall (WAF) protect from?" expand="false" type="slide" />
-            <slidelink slideid="_player.5a5XEV003aM.63HaTtdXv9D" displaytext="What is Microsoft&amp;apos;s preferred solution for identity management in the cloud for application users?" expand="false" type="slide" />
-            <slidelink slideid="_player.5a5XEV003aM.6KbP5qtX8lK" displaytext="What benefit does Multi-Factor Authentication give to enhance user security?" expand="false" type="slide" />
-            <slidelink slideid="_player.5a5XEV003aM.6WSVGZF6q7S" displaytext="How does Azure Advisor enhance security of your account?" expand="false" type="slide" />
-            <slidelink slideid="_player.5a5XEV003aM.5WffimZO5xx" displaytext="What Azure service is specifically designed for you to keep your application secrets such as API keys, signed certificates, and security keys." expand="false" type="slide" />
-            <slidelink slideid="_player.5a5XEV003aM.6VqsWr1nlr8" displaytext="What would be a good reason to have multiple subscriptions?" expand="false" type="slide" />
-            <slidelink slideid="_player.5a5XEV003aM.62mvfsIzIF5" displaytext="Scenario: You have an application in the cloud that has 10 servers with various roles. Six servers are D2S machines, two servers are D4S, and two are D8S instance types. This application is expected to run for years, but the business has concerns about the cost. What is the one thing you can do almost immediately to reduce the cost of this solution by at least 50%?" expand="false" type="slide" />
-            <slidelink slideid="_player.5a5XEV003aM.6NbQolMwZZB" displaytext="What is the concept of Total Cost of Ownership?" expand="false" type="slide" />
-            <slidelink slideid="_player.5a5XEV003aM.6lE7N1tiq49" displaytext="What is Microsoft&amp;apos;s Service Level Agreement for single instance Virtual Machines running with premium OS disks and data disks?" expand="false" type="slide" />
-            <slidelink slideid="_player.5a5XEV003aM.6pYCjzGNUiH" displaytext="Is it wise to use Azure &amp;quot;Preview Features&amp;quot; in Production?" expand="false" type="slide" />
+            <slidelink slideid="_player.5a5XEV003aM.5yLsAtZ6tof" displaytext="Azure Fundamentals" expand="false" type="slide" />
+            <slidelink slideid="_player.5a5XEV003aM.5sWRusJOi3g" displaytext="Draw from Question Bank 1" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
