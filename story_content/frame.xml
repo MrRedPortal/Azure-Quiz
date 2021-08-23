@@ -34,9 +34,9 @@
               <listitem name="transcript" value="false" group="sidebar" />
             </listitems>
           </optionlist>
-          <option name="time_enabled" value="false">
+          <option name="time_enabled" value="true">
             <options>
-              <option name="time_format" value="none" />
+              <option name="time_format" value="totalelapsed" />
             </options>
           </option>
           <option name="video_enabled" value="false">
@@ -1520,6 +1520,7 @@
             <slidelink slideid="_player.5a5XEV003aM.5gEDTdmaHa1" displaytext="50 Question bank" expand="false" type="slide" />
             <slidelink slideid="_player.5a5XEV003aM.5mHaHk33jID" displaytext="100 Question bank" expand="false" type="slide" />
             <slidelink slideid="_player.5a5XEV003aM.5y5GLODTuwa" displaytext="Total Question Bank" expand="false" type="slide" />
+            <slidelink slideid="_player.5a5XEV003aM.5vYxKEOG2Rc" displaytext="Timed Question Bank" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
