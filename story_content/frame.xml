@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00001100001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x3FBD93">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbsnfns00001100001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x3FBD93">
   <layouts>
-    <layout name="npnxnanbsnfns00001100001" font="Open Sans" controllayout="npnxnanbsnfns00001100001" colorscheme="pxabnsnfns00001100001" string_table="pxabnsnfns00001100001" />
-    <layout name="pxabnsnfns00001100001" font="Open Sans" controllayout="pxabnsnfns00001100001" colorscheme="pxabnsnfns00001100001" string_table="pxabnsnfns00001100001" />
-    <layout name="npxnabnsnfns00001100001" font="Open Sans" controllayout="npxnabnsnfns00001100001" colorscheme="pxabnsnfns00001100001" string_table="pxabnsnfns00001100001" />
-    <layout name="npnxnanbnsnfns00001100001" font="Open Sans" controllayout="npnxnanbnsnfns00001100001" colorscheme="pxabnsnfns00001100001" string_table="pxabnsnfns00001100001" />
-    <layout name="pxabnsnfns00001100000" font="Open Sans" controllayout="pxabnsnfns00001100000" colorscheme="pxabnsnfns00001100001" string_table="pxabnsnfns00001100001" />
-    <layout name="pnxnanbsnfns00001100001" font="Open Sans" controllayout="pnxnanbsnfns00001100001" colorscheme="pxabnsnfns00001100001" string_table="pxabnsnfns00001100001" />
+    <layout name="npnxnanbsnfns00001100001" font="Open Sans" controllayout="npnxnanbsnfns00001100001" colorscheme="npnxnanbsnfns00001100001" string_table="npnxnanbsnfns00001100001" />
+    <layout name="pxabnsnfns00001100001" font="Open Sans" controllayout="pxabnsnfns00001100001" colorscheme="npnxnanbsnfns00001100001" string_table="npnxnanbsnfns00001100001" />
+    <layout name="npxnabnsnfns00001100001" font="Open Sans" controllayout="npxnabnsnfns00001100001" colorscheme="npnxnanbsnfns00001100001" string_table="npnxnanbsnfns00001100001" />
+    <layout name="npnxnanbnsnfns00001100001" font="Open Sans" controllayout="npnxnanbnsnfns00001100001" colorscheme="npnxnanbsnfns00001100001" string_table="npnxnanbsnfns00001100001" />
+    <layout name="pxabnsnfns00001100000" font="Open Sans" controllayout="pxabnsnfns00001100000" colorscheme="npnxnanbsnfns00001100001" string_table="npnxnanbsnfns00001100001" />
+    <layout name="pnxnanbsnfns00001100001" font="Open Sans" controllayout="pnxnanbsnfns00001100001" colorscheme="npnxnanbsnfns00001100001" string_table="npnxnanbsnfns00001100001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -14,7 +14,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="Azure Quiz v2" />
+              <option name="title_text" value="Azure Quiz" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -232,7 +232,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="pxabnsnfns00001100001">
+    <colorscheme name="npnxnanbsnfns00001100001">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1409,7 +1409,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="pxabnsnfns00001100001">
+    <string_table name="npnxnanbsnfns00001100001">
       <string id="three_image_items">items</string>
       <string id="three_image_viewed">viewed</string>
       <string id="three_image_of">of</string>
@@ -1516,7 +1516,10 @@
         <slidelink slideid="_player.5a5XEV003aM" displaytext="Azure Fundamentals Basic Quiz" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.5a5XEV003aM.5yLsAtZ6tof" displaytext="Azure Fundamentals" expand="false" type="slide" />
-            <slidelink slideid="_player.5a5XEV003aM.5sWRusJOi3g" displaytext="Draw from Question Bank 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5a5XEV003aM.5sWRusJOi3g" displaytext="25 Question bank" expand="false" type="slide" />
+            <slidelink slideid="_player.5a5XEV003aM.5gEDTdmaHa1" displaytext="50 Question bank" expand="false" type="slide" />
+            <slidelink slideid="_player.5a5XEV003aM.5mHaHk33jID" displaytext="100 Question bank" expand="false" type="slide" />
+            <slidelink slideid="_player.5a5XEV003aM.5y5GLODTuwa" displaytext="Total Question Bank" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
