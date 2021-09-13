@@ -20,7 +20,7 @@
           <option name="logo_enabled" value="true">
             <options>
               <option name="logo_url" />
-              <option name="html5_logo_url" value="mobile/6G0mivCO5p9.png" />
+              <option name="html5_logo_url" value="mobile/5grdyEFygHC.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -248,7 +248,7 @@
           <color name="focus_rect_secondary">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x001D62" alpha="100" stop="0" />
+                <color rgb="0x002060" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
