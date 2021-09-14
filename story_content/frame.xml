@@ -20,7 +20,7 @@
           <option name="logo_enabled" value="true">
             <options>
               <option name="logo_url" />
-              <option name="html5_logo_url" value="mobile/5grdyEFygHC.png" />
+              <option name="html5_logo_url" value="mobile/64unq2qmSrk.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -1526,12 +1526,12 @@
             <slidelink slideid="_player.5q0WynJkTxe.5lXkjZOqFwD" displaytext="Timed Question Bank" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.5YQpGlolVXD" displaytext="Untitled Scene" expand="true" type="slide">
+        <slidelink slideid="_player.5YQpGlolVXD" displaytext="Untimed" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.5YQpGlolVXD.65mHPRJ4TFC" displaytext="Total Question Bank" expand="false" type="slide" />
-            <slidelink slideid="_player.5YQpGlolVXD.5krvaV1GlJD" displaytext="100 Question bank" expand="false" type="slide" />
-            <slidelink slideid="_player.5YQpGlolVXD.600oOFRFMAH" displaytext="25 Question bank" expand="false" type="slide" />
-            <slidelink slideid="_player.5YQpGlolVXD.6Cgg1qVZtb6" displaytext="50 Question bank" expand="false" type="slide" />
+            <slidelink slideid="_player.5YQpGlolVXD.64joGmKbavl" displaytext="25 Questions" expand="false" type="slide" />
+            <slidelink slideid="_player.5YQpGlolVXD.5XPQ117Gz5k" displaytext="100 Questions" expand="false" type="slide" />
+            <slidelink slideid="_player.5YQpGlolVXD.6bC1620e7KQ" displaytext="All Questions" expand="false" type="slide" />
+            <slidelink slideid="_player.5YQpGlolVXD.5YHEBwnUvfY" displaytext="50 Questions" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
